@@ -1,0 +1,42 @@
+
+{
+    "films": [
+        {
+            "poster_path": "path/to/poster1.jpg",
+            "title": "À contre-sens 2",
+            "release_date": "27/12/2024",
+            "vote_average": 7.2
+        },
+        {
+            "poster_path": "path/to/poster2.jpg",
+            "title": "Nom de code : Rouge",
+            "release_date": "11-08-2024",
+            "vote_average": 7.0
+        },
+        
+        {
+            "poster_path": "path/to/poster3.jpg",
+            "title": "Venom : The Last Dance",
+            "release_date": "10-25-2024",
+            "vote_average": 6.8
+        },
+
+        {
+            "poster_path": "path/to/poster3.jpg",
+            "title": "Vaiana 2",
+            "release_date": "10-25-2024",
+            "vote_average": 6.8
+        },
+
+        {
+            "poster_path": "path/to/poster3.jpg",
+            "title": "Vice-versa 2",
+            "release_date": "10-25-2024",
+            "vote_average": 6.8
+        },
+        
+
+
+
+    ]
+}
