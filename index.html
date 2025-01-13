@@ -1,79 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Films de la semaine</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://www.themoviedb.org/u/DANYAFPA?language=fr" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Films de la semaine</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://www.themoviedb.org/u/DANYAFPA?language=fr" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
 
-    <nav>
-        <a href="#video">Bandes-annonces</a>
-        <a href="#other-title">Autres titres à regarder</a>
-        <a href="#offre">Offres</a>
-    </nav>
+  <div class="parent"></div>
 
-    .
+  <nav>
+    <a href="#up" class="MTBD">MTBD</a>
+    <a href="#video">Bandes-annonces</a>
+    <a href="#other-title">Autres titres à regarder</a>
+    <a href="#offre">Offres</a>
+  </nav>
 
-    <div class="container text-center">
-        <div class="row align-items-start">
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-        </div>
-      </div>
-       
+  <div id="films-container">
+
+    <div class="movie"> <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/bn4qZZO5nSN48D5pXVypf4MF2wg.jpg"
+        alt="À contre-sens 2" class="film_img">
+      <h2>À contre-sens 2</h2>
+      <p>Date de sortie : 27/12/2024</p>
+      <p>Note moyenne : 7.2 </p>
+    </div>
+
+    <div class="movie"> <img src="https://www.themoviedb.org/t/p/w220_and_h330_bestv2/4nYSXdxjBwzVZUv1X9YnTQ9ZEhM.jpg"
+        alt="Nom de code : Rouge" class="film_img">
+      <h2>Nom de code : Rouge</h2>
+      <p>Date de sortie : 08/11/2024</p>
+      <p>Note moyenne : 7.0 </p>
+    </div>
 
 
-    <div class="movie"> <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/bn4qZZO5nSN48D5pXVypf4MF2wg.jpg" 
-    alt="À contre-sens 2"> <h2>À contre-sens 2</h2> 
-    <p>Date de sortie : 27/12/2024</p>
-    <p>Note moyenne : 7.2 </p> </div>
+    <div class="movie"> <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/c2KKN61jRS5bBcUX1zQa8BoZcHm.jpg"
+        alt="Venom : The Last Dance" class="film_img">
+      <h2>Venom : The Last Dance</h2>
+      <p>Date de sortie :25/10/2024 : </p>
+      <p>Note moyenne : 6.8 </p>
+    </div>
 
-    <div class="movie"> <img src="https://www.themoviedb.org/t/p/w220_and_h330_bestv2/4nYSXdxjBwzVZUv1X9YnTQ9ZEhM.jpg" 
-    alt="Nom de code : Rouge"> <h2>Nom de code : Rouge</h2> 
-    <p>Date de sortie : 08/11/2024</p>
-    <p>Note moyenne : 7.0 </p> </div>
+    <div class="movie"> <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/usdwoEwm68cdeMOvGFPwSk9nLTr.jpg"
+        alt="Vaiana 2" class="film_img">
+      <h2>Vaiana 2</h2>
+      <p>Date de sortie :29/11/2024 </p>
+      <p>Note moyenne : 7.0 </p>
+    </div>
 
-    
-    <div class="movie"> <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/c2KKN61jRS5bBcUX1zQa8BoZcHm.jpg" 
-    alt="Venom : The Last Dance"> <h2>Venom : The Last Dance</h2> 
-    <p>Date de sortie :25/10/2024 : </p>
-    <p>Note moyenne : 6.8 </p> </div>
-
-    <div class="movie"> <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/usdwoEwm68cdeMOvGFPwSk9nLTr.jpg" 
-    alt="Vaiana 2"> <h2>Vaiana 2</h2> 
-    <p>Date de sortie :29/11/2024 </p>
-    <p>Note moyenne : 7.0 </p> </div>                
-                
     <div class="movie"> <img src="https://media.themoviedb.org/t/p/w220_and_h330_bestv2/2IUCa73cvvIgZSiJcNtPBf4L5iF.jpg"
-    alt="Le Robot sauvage"> <h2>Le Robot sauvage</h2> 
-    <p>Date de sortie :20/09/2024</p>
-    <p>Note moyenne : 8.4 </p> </div> 
-    
-    
+        alt="Le Robot sauvage" class="film_img">
+      <h2>Le Robot sauvage</h2>
+      <p>Date de sortie :20/09/2024</p>
+      <p>Note moyenne : 8.4 </p>
+    </div>
+
+
     <div class="movie"> <img src="https://media.themoviedb.org/t/p/w220_and_h330_bestv2/9Jic8z9NEeCEmSJFgFHZF1lWMFo.jpg"
-    alt="Vice-versa 2"> <h2>Vice-versa 2</h2> 
-        <p>Date de sortie :12/06/2024</p>
-        <p>Note moyenne : 7.6 </p> </div> 
+        alt="Vice-versa 2" class="film_img">
+      <h2>Vice-versa 2</h2>
+      <p>Date de sortie :12/06/2024</p>
+      <p>Note moyenne : 7.6 </p>
+    </div>
 
-        
+  </div>
 
-        
+  <footer>
+    <p>Des questions ? Appelez le (+33) 0805-543-063</p>
+    <ul>
+      <li><a href="#">Conditions d'utilisation</a></li>
+      <li><a href="#">Confidentialité</a></li>
+      <li><a href="#">Préférence de cookies</a></li>
+      <li><a href="#">Mentions légales</a></li>
+      <li><a href="#">Nous contacter</a></li>
+    </ul>
+  </footer>
 
-    <section id="movies"></section>
-    <script src="script.js"></script>
-    
+
 
 
 </body>
+
 </html>

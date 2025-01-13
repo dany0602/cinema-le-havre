@@ -5,6 +5,19 @@ body {
     background-color: #f4f4f4;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background-color: grey;
+    padding: 1rem;
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+}
+
 h1 {
     text-align: center;
     margin-top: 20px;
@@ -17,7 +30,7 @@ h1 {
     padding: 20px;
 }
 
-.film {
+.movie {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -27,7 +40,7 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.film img {
+.film_img {
     width: 100%;
     border-radius: 5px;
 }
@@ -45,5 +58,33 @@ h1 {
     #films-container {
         flex-direction: column;
         align-items: center;
+        }
     }
+
+
+    .parent {
+        /* pour bien voir la div parent */
+        background-color: teal; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+footer{
+    background-color: grey;
+    padding: 1rem;
+    color: white;
+
 }
+
+    footer,ul,li {
+        text-align: center;
+        list-style: none;
+        
+    }
+
+    footer, ul, li, a {
+        
+    text-decoration: none;
+    color: white;
+    }
